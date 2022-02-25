@@ -52,7 +52,7 @@ body {
 :root {
 	--thm-font: 'Open Sans', sans-serif;
 	--thm-font2: 'Bubblegum Sans', sans-serif;
-	--thm-base: #feda00;
+	--thm-base: black;
 	--thm-line: linear-gradient(to bottom,#77b160,#0e6b43);
 	--thm-colors: #77b160;
 	--thm-color: #0e6b43;
@@ -456,7 +456,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-top-header {
-	background-color: var(--thm-colors);
+	background-color: blue;
 	overflow: hidden;
 	padding-bottom: 1.5px;
 }
@@ -806,7 +806,7 @@ button, input, textarea:focus {
 	width: 70px;
 	height: 60px;
 	line-height: 50px;
-	background: rgba(237, 237, 237, 0.1);
+	background: rgba(33, 4, 112, 0.657);
 	border-radius: 0 50% 50% 0;
 	text-align: center;
 }
@@ -819,7 +819,7 @@ button, input, textarea:focus {
 .slider-active .owl-nav .owl-next:hover,
 .slider-active .owl-nav .owl-prev:hover {
     border-color: var(--thm-color);
-    background: var(--thm-color);
+    background: red;
     color: var(--thm-white);
 }
 .slider-active .atf-single-home h3 {
@@ -1135,7 +1135,7 @@ canvas.sketch{
 * ----------------------------------------------------------------------------------------
 */
 .atf-ripple-home {
-	background-image: url(./images/BCH_hero2.jpg);
+	background-image: url(./images/IMG-20220209-WA0006.jpg);
 	position: relative;
 	background-position: center;
 	background-size:cover;
@@ -2803,12 +2803,12 @@ END BLOG DETAILS DESIGN
 	text-align: center;
 	margin: 0px 0 25px;
 	border-radius: 10%;
-	background: var(--thm-color);
+	background: red;
 	float: left;
 	margin-right: 25px;
 }
 .atf-contact-details h4 {
-	color: var(--thm-black);
+	color: blue;
 	font-size: 20px;
 	line-height: 16px;
 }
@@ -2889,7 +2889,7 @@ END BLOG DETAILS DESIGN
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: var(--thm-colors);
+	background: red;
 	border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
 	transform: scaleX(2.1);
 	z-index: -1;
@@ -2950,7 +2950,7 @@ END BLOG DETAILS DESIGN
 }
 .atf-footer-boottom {
 	padding: 35px 0;
-	background: rgba(0,0,0, 0.4);
+	background: blue;
 }
 .atf-footer-box p {
     color: var(--thm-white);
