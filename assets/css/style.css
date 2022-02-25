@@ -456,7 +456,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-top-header {
-	background-color: blue;
+	background-color: rgb(2, 2, 39);
 	overflow: hidden;
 	padding-bottom: 1.5px;
 }
