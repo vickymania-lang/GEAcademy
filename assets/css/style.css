@@ -195,6 +195,14 @@ button, input, textarea:focus {
 .atf-color-ase{
 	color:var(--thm-ase)! important;
 }
+
+.img-need {
+	position: relative;
+	right: -900px;
+	top: -450px;
+
+}
+
 /*
 * ----------------------------------------------------------------------------------------
 * PRELOADER
@@ -223,7 +231,7 @@ button, input, textarea:focus {
     border-top: 4px solid rgba(0, 0, 0, 0.08);
     border-right: 4px solid rgba(0, 0, 0, 0.08);
     border-bottom: 4px solid rgba(0, 0, 0, 0.08);
-    border-left: 4px solid var(--thm-color);
+    border-left: 4px solid #99141d;
     border-radius: 50%;
     -webkit-animation: spinner 700ms infinite linear;
     animation: spinner 700ms infinite linear;
@@ -456,7 +464,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-top-header {
-	background-color: #11468F;
+	background-color: #1d3c82;
 	overflow: hidden;
 	padding-bottom: 1.5px;
 }
@@ -806,7 +814,7 @@ button, input, textarea:focus {
 	width: 70px;
 	height: 60px;
 	line-height: 50px;
-	background: rgba(33, 4, 112, 0.657);
+	background: #99141d;
 	border-radius: 0 50% 50% 0;
 	text-align: center;
 }
@@ -819,7 +827,7 @@ button, input, textarea:focus {
 .slider-active .owl-nav .owl-next:hover,
 .slider-active .owl-nav .owl-prev:hover {
     border-color: var(--thm-color);
-    background: red;
+    background: #1d3c82;
     color: var(--thm-white);
 }
 .slider-active .atf-single-home h3 {
@@ -2803,7 +2811,7 @@ END BLOG DETAILS DESIGN
 	text-align: center;
 	margin: 0px 0 25px;
 	border-radius: 10%;
-	background: red;
+	background: #99141d;
 	float: left;
 	margin-right: 25px;
 }
@@ -2889,7 +2897,7 @@ END BLOG DETAILS DESIGN
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: red;
+	background: #99141d;
 	border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
 	transform: scaleX(2.1);
 	z-index: -1;
@@ -2950,7 +2958,7 @@ END BLOG DETAILS DESIGN
 }
 .atf-footer-boottom {
 	padding: 35px 0;
-	background: blue;
+	background: #1d3c82;
 }
 .atf-footer-box p {
     color: var(--thm-white);
