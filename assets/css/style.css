@@ -464,7 +464,7 @@ button, input, textarea:focus {
 * ----------------------------------------------------------------------------------------
 */
 .atf-top-header {
-	background-color: #99141d;
+	background-color: #1d3c82;
 	overflow: hidden;
 	padding-bottom: 1.5px;
 }
@@ -2816,7 +2816,7 @@ END BLOG DETAILS DESIGN
 	margin-right: 25px;
 }
 .atf-contact-details h4 {
-	color: blue;
+	color: #1d3c82;
 	font-size: 20px;
 	line-height: 16px;
 }
@@ -2897,7 +2897,7 @@ END BLOG DETAILS DESIGN
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #99141d;
+	background: #EBECF0;
 	border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
 	transform: scaleX(2.1);
 	z-index: -1;
@@ -2958,7 +2958,7 @@ END BLOG DETAILS DESIGN
 }
 .atf-footer-boottom {
 	padding: 35px 0;
-	background: #1d3c82;
+	background: #1d3a80;
 }
 .atf-footer-box p {
     color: var(--thm-white);
@@ -2986,13 +2986,14 @@ END BLOG DETAILS DESIGN
 }
 .atf-footer-area .atf-footer-link {
 	position: relative;
+	color: black;
 }
 .atf-footer-area .atf-footer-link::after {
 	content: '';
 	position: absolute;
 	left: 35px;
 	top: 35px;
-	background: var(--thm-white);
+	background: black;
 	width: 45px;
 	height: 2px;
 }
@@ -3001,17 +3002,17 @@ END BLOG DETAILS DESIGN
 	position: absolute;
 	left: 14px;
 	top: 33px;
-	background: var(--thm-white);
+	background: black;
 	width: 11px;
 	height: 5px;
 }
 .atf-footer-link h5 {
 	margin-bottom: 35px;
 	font-size: 22px;
-	color: var(--thm-white);
+	color: black;
 }
 .atf-footer-link .atf-list-menu li a {
-	color: var(--thm-f3);
+	color: black;
 	margin-bottom: 10px;
 	display: block;
 	position: relative;
@@ -3033,7 +3034,7 @@ END BLOG DETAILS DESIGN
     font-family: var(--thm-font);
 }
 .atf-footer-link p{
-	color: var(--thm-white);
+	color: black;
 }
 .atf-footer-boottom  p{
 	color: var(--thm-white);
@@ -3065,6 +3066,7 @@ END BLOG DETAILS DESIGN
 	width: 100%;
 	height: 150px;
 }
+
 /*
 * ----------------------------------------------------------------------------------------
 * END MAP DESIGN
@@ -3073,6 +3075,7 @@ END BLOG DETAILS DESIGN
 /*
 * ----------------------------------------------------------------------------------------
 * 16.END FOOTER DESIGN
+
 * ----------------------------------------------------------------------------------------
 */
 
